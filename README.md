@@ -1,51 +1,29 @@
-# 🏆 Leaderboard App
+# Todo List React App
 
-A responsive React-based leaderboard application that allows users to manage and track scores with a beautiful background interface.
+A simple and intuitive Todo List application built with React that allows users to add, edit, and delete tasks efficiently.
 
-## ✨ Features
+## Features
 
-- **Add Players**: Enter first name, last name, country, and score
-- **Auto-Sort**: Leaderboard automatically sorts by highest score
-- **Score Management**: Increment (+5) or decrement (-5) player scores
-- **Delete Players**: Remove players from the leaderboard
-- **Responsive Design**: Adaptive background image for different screen sizes
-- **Country Selection**: Choose from multiple countries (India, Australia, England, New Zealand, West Indies, South Africa)
+- **Add Tasks**: Type a task name and click "Add Task" to add it to your list
+- **Edit Tasks**: Click the edit button to modify existing tasks
+- **Delete Tasks**: Remove tasks from your list with a single click
+- **Dynamic UI**: Button text changes from "Add Task" to "Edit Task" during editing mode
 
-## 🚀 Technologies Used
+## How It Works
 
-- **React** - Frontend framework
-- **React Hooks** - useState for state management
-- **Tailwind CSS** - Styling and responsive design
+### Adding Tasks
+1. Type your task in the input field
+2. Click the "Add Task" button
+3. The task will appear in your todo list
 
-## 🛠️ Installation
+### Editing Tasks
+1. Click the "Edit" button next to any task
+2. The task text will populate the input field
+3. The "Add Task" button changes to "Edit Task"
+4. Modify the text as needed
+5. Click "Edit Task" to save your changes
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Channu-22/leaderBoard_React
-cd jagannath
-```
-
-
-```
-
-## 📖 Usage
-
-1. **Add a Player**: 
-   - Fill in the first name, last name
-   - Select a country from the dropdown
-   - Enter a score
-   - Click "Add" button
-
-2. **Modify Scores**:
-   - Click "+5" to increase a player's score
-   - Click "-5" to decrease a player's score
-   - Leaderboard automatically re-sorts after score changes
-
-3. **Delete Players**:
-   - Click the delete (🗑️) icon to remove a player
-
-## 🏗️ Component Structure
-
-```
-
+### Deleting Tasks
+1. Click the "Delete" button next to any task
+2. The task will be removed from your list immediately
 
